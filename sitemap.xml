@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://ahaxin.github.io/belcomply/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ahaxin.github.io/belcomply/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ahaxin.github.io/belcomply/zh/"/>
+  </url>
+  <url>
+    <loc>https://ahaxin.github.io/belcomply/en/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ahaxin.github.io/belcomply/en/services.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ahaxin.github.io/belcomply/zh/services.html"/>
+  </url>
+  <url>
+    <loc>https://ahaxin.github.io/belcomply/en/why-us.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ahaxin.github.io/belcomply/en/why-us.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ahaxin.github.io/belcomply/zh/why-us.html"/>
+  </url>
+  <url>
+    <loc>https://ahaxin.github.io/belcomply/en/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ahaxin.github.io/belcomply/en/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ahaxin.github.io/belcomply/zh/blog.html"/>
+  </url>
+  <url>
+    <loc>https://ahaxin.github.io/belcomply/en/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ahaxin.github.io/belcomply/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ahaxin.github.io/belcomply/zh/about.html"/>
+  </url>
+  <url>
+    <loc>https://ahaxin.github.io/belcomply/en/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ahaxin.github.io/belcomply/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ahaxin.github.io/belcomply/zh/faq.html"/>
+  </url>
+  <url>
+    <loc>https://ahaxin.github.io/belcomply/en/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ahaxin.github.io/belcomply/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ahaxin.github.io/belcomply/zh/contact.html"/>
+  </url>
+  <url>
+    <loc>https://ahaxin.github.io/belcomply/en/post-ppwr.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ahaxin.github.io/belcomply/en/post-ppwr.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ahaxin.github.io/belcomply/zh/post-ppwr.html"/>
+  </url>
+  <url>
+    <loc>https://ahaxin.github.io/belcomply/en/post-who-needs-ar.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ahaxin.github.io/belcomply/en/post-who-needs-ar.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ahaxin.github.io/belcomply/zh/post-who-needs-ar.html"/>
+  </url>
+  <url>
+    <loc>https://ahaxin.github.io/belcomply/en/post-300kg.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ahaxin.github.io/belcomply/en/post-300kg.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ahaxin.github.io/belcomply/zh/post-300kg.html"/>
+  </url>
+  <url>
+    <loc>https://ahaxin.github.io/belcomply/en/post-amazon-enforcement.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ahaxin.github.io/belcomply/en/post-amazon-enforcement.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ahaxin.github.io/belcomply/zh/post-amazon-enforcement.html"/>
+  </url>
+</urlset>
