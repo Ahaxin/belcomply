@@ -64,7 +64,11 @@
         <h2 class="section-title">Send us a message</h2>
         <p style="color:var(--ink-500)">Fill in the form and we'll get back to you — in Chinese or English — usually within one business day.</p>
 
-        <form id="contact-form" class="form-grid" style="margin-top:1.5rem">
+        <form id="contact-form" class="form-grid" style="margin-top:1.5rem" method="post">
+          <input type="hidden" name="_subject" value="BelComply enquiry">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
           <div class="field">
             <label for="name">Name *</label>
             <input type="text" id="name" name="name" required placeholder="Your name">
@@ -94,6 +98,7 @@
           </div>
           <div class="field field--full">
             <button type="submit" class="btn btn--gold btn--lg">Send message <span class="arrow">→</span></button>
+            <p id="form-status" style="margin:.8rem 0 0;font-size:14.5px" aria-live="polite"></p>
           </div>
         </form>
       </div>
@@ -165,19 +170,25 @@
 
 <script src="../assets/js/main.js"></script>
 <script>
-  // Static site: no backend. Compose a pre-filled email via the visitor's mail client.
-  document.getElementById("contact-form").addEventListener("submit", function (e) {
+  // FormSubmit (no backend needed): AJAX POST, forwarded to our inbox.
+  var form = document.getElementById("contact-form");
+  var status = document.getElementById("form-status");
+  form.addEventListener("submit", function (e) {
     e.preventDefault();
-    var name = document.getElementById("name").value.trim();
-    var email = document.getElementById("email").value.trim();
-    var company = document.getElementById("company").value.trim();
-    var model = document.getElementById("model").value;
-    var msg = document.getElementById("message").value.trim();
-    var subject = "BelComply enquiry — " + name + (company ? " (" + company + ")" : "");
-    var body = "Name: " + name + "\nEmail: " + email + "\nCompany: " + (company || "-") +
-               "\nSales channel: " + (model || "-") + "\n\n" + msg;
-    window.location.href = "mailto:contact@belcomply.com?subject=" +
-      encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+    status.textContent = "Sending…";
+    status.style.color = "var(--ink-500)";
+    fetch("https://formsubmit.co/ajax/justin.xin.chang@hotmail.com", {
+      method: "POST",
+      body: new FormData(form),
+      headers: { "Accept": "application/json" }
+    }).then(function (r) { return r.json(); }).then(function () {
+      status.textContent = "✓ Sent! We'll get back to you within one business day.";
+      status.style.color = "var(--ok)";
+      form.reset();
+    }).catch(function () {
+      status.textContent = "Something went wrong — please email us or use WhatsApp instead.";
+      status.style.color = "var(--warn)";
+    });
   });
 </script>
 </body>

@@ -64,7 +64,11 @@
         <h2 class="section-title">给我们留言</h2>
         <p style="color:var(--ink-500)">填写表单，我们会尽快回复——中文或英文——通常一个工作日内。</p>
 
-        <form id="contact-form" class="form-grid" style="margin-top:1.5rem">
+        <form id="contact-form" class="form-grid" style="margin-top:1.5rem" method="post">
+          <input type="hidden" name="_subject" value="BelComply 咨询">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
           <div class="field">
             <label for="name">姓名 *</label>
             <input type="text" id="name" name="name" required placeholder="您的姓名">
@@ -94,6 +98,7 @@
           </div>
           <div class="field field--full">
             <button type="submit" class="btn btn--gold btn--lg">发送留言 <span class="arrow">→</span></button>
+            <p id="form-status" style="margin:.8rem 0 0;font-size:14.5px" aria-live="polite"></p>
           </div>
         </form>
       </div>
@@ -165,19 +170,25 @@
 
 <script src="../assets/js/main.js"></script>
 <script>
-  // 静态站无后端：通过访客的邮件客户端发送预填邮件。
-  document.getElementById("contact-form").addEventListener("submit", function (e) {
+  // FormSubmit：无需后端，AJAX 提交，转发到我们的邮箱。
+  var form = document.getElementById("contact-form");
+  var status = document.getElementById("form-status");
+  form.addEventListener("submit", function (e) {
     e.preventDefault();
-    var name = document.getElementById("name").value.trim();
-    var email = document.getElementById("email").value.trim();
-    var company = document.getElementById("company").value.trim();
-    var model = document.getElementById("model").value;
-    var msg = document.getElementById("message").value.trim();
-    var subject = "BelComply 咨询 — " + name + (company ? "（" + company + "）" : "");
-    var body = "姓名：" + name + "\n邮箱：" + email + "\n公司：" + (company || "-") +
-               "\n销售渠道：" + (model || "-") + "\n\n" + msg;
-    window.location.href = "mailto:contact@belcomply.com?subject=" +
-      encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+    status.textContent = "正在发送…";
+    status.style.color = "var(--ink-500)";
+    fetch("https://formsubmit.co/ajax/justin.xin.chang@hotmail.com", {
+      method: "POST",
+      body: new FormData(form),
+      headers: { "Accept": "application/json" }
+    }).then(function (r) { return r.json(); }).then(function () {
+      status.textContent = "✓ 已发送！我们会在一个工作日内回复您。";
+      status.style.color = "var(--ok)";
+      form.reset();
+    }).catch(function () {
+      status.textContent = "发送失败，请改发邮件或使用 WhatsApp 联系我们。";
+      status.style.color = "var(--warn)";
+    });
   });
 </script>
 </body>
