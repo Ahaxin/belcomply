@@ -6,15 +6,15 @@
 <title>Contact — BelComply · Belgian EPR Authorised Representative</title>
 <meta name="description" content="Contact BelComply for a free Belgian EPR compliance check. Email or WhatsApp — we reply in Chinese or English.">
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="canonical" href="https://ahaxin.github.io/belcomply/en/contact.html">
-<link rel="alternate" hreflang="en" href="https://ahaxin.github.io/belcomply/en/contact.html">
-<link rel="alternate" hreflang="zh-CN" href="https://ahaxin.github.io/belcomply/zh/contact.html">
-<link rel="alternate" hreflang="x-default" href="https://ahaxin.github.io/belcomply/en/contact.html">
+<link rel="canonical" href="https://belcomply.com/en/contact.html">
+<link rel="alternate" hreflang="en" href="https://belcomply.com/en/contact.html">
+<link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/contact.html">
+<link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/contact.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="BelComply">
 <meta property="og:title" content="Contact — BelComply · Belgian EPR Authorised Representative">
 <meta property="og:description" content="Contact BelComply for a free Belgian EPR compliance check. Email or WhatsApp — we reply in Chinese or English.">
-<meta property="og:url" content="https://ahaxin.github.io/belcomply/en/contact.html">
+<meta property="og:url" content="https://belcomply.com/en/contact.html">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Contact — BelComply · Belgian EPR Authorised Representative">
@@ -64,10 +64,11 @@
         <h2 class="section-title">Send us a message</h2>
         <p style="color:var(--ink-500)">Fill in the form and we'll get back to you — in Chinese or English — usually within one business day.</p>
 
-        <form id="contact-form" class="form-grid" style="margin-top:1.5rem" method="post">
+        <form class="form-grid" style="margin-top:1.5rem" method="POST" action="https://formsubmit.co/justin.xin.chang@hotmail.com">
           <input type="hidden" name="_subject" value="BelComply enquiry">
           <input type="hidden" name="_template" value="table">
-          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_captcha" value="true">
+          <input type="hidden" name="_next" value="https://belcomply.com/en/thank-you.html">
           <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
           <div class="field">
             <label for="name">Name *</label>
@@ -98,7 +99,6 @@
           </div>
           <div class="field field--full">
             <button type="submit" class="btn btn--gold btn--lg">Send message <span class="arrow">→</span></button>
-            <p id="form-status" style="margin:.8rem 0 0;font-size:14.5px" aria-live="polite"></p>
           </div>
         </form>
       </div>
@@ -169,27 +169,5 @@
 </div>
 
 <script src="../assets/js/main.js"></script>
-<script>
-  // FormSubmit (no backend needed): AJAX POST, forwarded to our inbox.
-  var form = document.getElementById("contact-form");
-  var status = document.getElementById("form-status");
-  form.addEventListener("submit", function (e) {
-    e.preventDefault();
-    status.textContent = "Sending…";
-    status.style.color = "var(--ink-500)";
-    fetch("https://formsubmit.co/ajax/justin.xin.chang@hotmail.com", {
-      method: "POST",
-      body: new FormData(form),
-      headers: { "Accept": "application/json" }
-    }).then(function (r) { return r.json(); }).then(function () {
-      status.textContent = "✓ Sent! We'll get back to you within one business day.";
-      status.style.color = "var(--ok)";
-      form.reset();
-    }).catch(function () {
-      status.textContent = "Something went wrong — please email us or use WhatsApp instead.";
-      status.style.color = "var(--warn)";
-    });
-  });
-</script>
 </body>
 </html>

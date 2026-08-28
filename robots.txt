@@ -11,4 +11,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://ahaxin.github.io/belcomply/sitemap.xml
+Sitemap: https://belcomply.com/sitemap.xml

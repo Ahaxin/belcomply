@@ -6,15 +6,15 @@
 <title>联系我们 — BelComply · 比利时 EPR 授权代表</title>
 <meta name="description" content="联系 BelComply 获取免费的比利时 EPR 合规检查。邮件或 WhatsApp——我们以中文或英文回复。">
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="canonical" href="https://ahaxin.github.io/belcomply/zh/contact.html">
-<link rel="alternate" hreflang="en" href="https://ahaxin.github.io/belcomply/en/contact.html">
-<link rel="alternate" hreflang="zh-CN" href="https://ahaxin.github.io/belcomply/zh/contact.html">
-<link rel="alternate" hreflang="x-default" href="https://ahaxin.github.io/belcomply/en/contact.html">
+<link rel="canonical" href="https://belcomply.com/zh/contact.html">
+<link rel="alternate" hreflang="en" href="https://belcomply.com/en/contact.html">
+<link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/contact.html">
+<link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/contact.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="BelComply">
 <meta property="og:title" content="联系我们 — BelComply · 比利时 EPR 授权代表">
 <meta property="og:description" content="联系 BelComply 获取免费的比利时 EPR 合规检查。邮件或 WhatsApp——我们以中文或英文回复。">
-<meta property="og:url" content="https://ahaxin.github.io/belcomply/zh/contact.html">
+<meta property="og:url" content="https://belcomply.com/zh/contact.html">
 <meta property="og:locale" content="zh_CN">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="联系我们 — BelComply · 比利时 EPR 授权代表">
@@ -64,10 +64,11 @@
         <h2 class="section-title">给我们留言</h2>
         <p style="color:var(--ink-500)">填写表单，我们会尽快回复——中文或英文——通常一个工作日内。</p>
 
-        <form id="contact-form" class="form-grid" style="margin-top:1.5rem" method="post">
+        <form class="form-grid" style="margin-top:1.5rem" method="POST" action="https://formsubmit.co/justin.xin.chang@hotmail.com">
           <input type="hidden" name="_subject" value="BelComply 咨询">
           <input type="hidden" name="_template" value="table">
-          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_captcha" value="true">
+          <input type="hidden" name="_next" value="https://belcomply.com/zh/thank-you.html">
           <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
           <div class="field">
             <label for="name">姓名 *</label>
@@ -98,7 +99,6 @@
           </div>
           <div class="field field--full">
             <button type="submit" class="btn btn--gold btn--lg">发送留言 <span class="arrow">→</span></button>
-            <p id="form-status" style="margin:.8rem 0 0;font-size:14.5px" aria-live="polite"></p>
           </div>
         </form>
       </div>
@@ -169,27 +169,5 @@
 </div>
 
 <script src="../assets/js/main.js"></script>
-<script>
-  // FormSubmit：无需后端，AJAX 提交，转发到我们的邮箱。
-  var form = document.getElementById("contact-form");
-  var status = document.getElementById("form-status");
-  form.addEventListener("submit", function (e) {
-    e.preventDefault();
-    status.textContent = "正在发送…";
-    status.style.color = "var(--ink-500)";
-    fetch("https://formsubmit.co/ajax/justin.xin.chang@hotmail.com", {
-      method: "POST",
-      body: new FormData(form),
-      headers: { "Accept": "application/json" }
-    }).then(function (r) { return r.json(); }).then(function () {
-      status.textContent = "✓ 已发送！我们会在一个工作日内回复您。";
-      status.style.color = "var(--ok)";
-      form.reset();
-    }).catch(function () {
-      status.textContent = "发送失败，请改发邮件或使用 WhatsApp 联系我们。";
-      status.style.color = "var(--warn)";
-    });
-  });
-</script>
 </body>
 </html>
