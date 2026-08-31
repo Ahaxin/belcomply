@@ -12,6 +12,11 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/services.html"/>
   </url>
   <url>
+    <loc>https://belcomply.com/en/coverage.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/coverage.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/coverage.html"/>
+  </url>
+  <url>
     <loc>https://belcomply.com/en/why-us.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/why-us.html"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/why-us.html"/>
@@ -55,5 +60,10 @@
     <loc>https://belcomply.com/en/post-amazon-enforcement.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-amazon-enforcement.html"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-amazon-enforcement.html"/>
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/post-europe.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-europe.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-europe.html"/>
   </url>
 </urlset>
