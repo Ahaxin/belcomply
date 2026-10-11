@@ -42,6 +42,21 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/contact"/>
   </url>
   <url>
+    <loc>https://belcomply.com/en/post-us-sellers-ppwr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-us-sellers-ppwr"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-us-sellers-ppwr"/>
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/post-uk-sellers-brexit</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-uk-sellers-brexit"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-uk-sellers-brexit"/>
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/post-ar-costs-timeline</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-ar-costs-timeline"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-ar-costs-timeline"/>
+  </url>
+  <url>
     <loc>https://belcomply.com/en/post-ppwr</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-ppwr"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-ppwr"/>
