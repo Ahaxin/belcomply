@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>覆盖范围 — BelComply · 比利时 EPR 与欧洲合规</title>
-<meta name="description" content="BelComply 覆盖欧洲：比利时由我们直接办理；德国、法国、荷兰等市场通过我们认证的伙伴网络协调。一个对接点，覆盖所有市场。">
+<title>覆盖范围 — BelComply · 欧盟 EPR 合规</title>
+<meta name="description" content="BelComply 覆盖欧洲主要电商市场——比利时、德国、法国、荷兰、意大利、西班牙、奥地利和波兰。一个对接点，覆盖所有市场。">
 <link rel="stylesheet" href="../assets/css/style.css">
 <link rel="canonical" href="https://belcomply.com/zh/coverage">
 <link rel="alternate" hreflang="en" href="https://belcomply.com/en/coverage">
@@ -12,13 +12,24 @@
 <link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/coverage">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="BelComply">
-<meta property="og:title" content="覆盖范围 — BelComply · 比利时 EPR 与欧洲合规">
-<meta property="og:description" content="比利时由我们直接办理；欧洲其他国家通过认证伙伴网络协调。一个对接点，覆盖所有市场。">
+<meta property="og:title" content="覆盖范围 — BelComply · 欧盟 EPR 合规">
+<meta property="og:description" content="BelComply 覆盖欧洲主要电商市场。一个对接点，覆盖所有市场。">
 <meta property="og:url" content="https://belcomply.com/zh/coverage">
 <meta property="og:locale" content="zh_CN">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="覆盖范围 — BelComply · 比利时 EPR 与欧洲合规">
-<meta name="twitter:description" content="比利时由我们直接办理；欧洲其他国家通过认证伙伴网络协调。">
+<meta name="twitter:title" content="覆盖范围 — BelComply · 欧盟 EPR 合规">
+<meta name="twitter:description" content="BelComply 覆盖欧洲主要电商市场。一个对接点，覆盖所有市场。">
+<style>
+    .flag-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem 1.25rem; }
+    .flag-card { text-align: center; }
+    .flag-box { position: relative; width: 100%; aspect-ratio: 3/2; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--paper-soft); }
+    .flag-box svg.flag-img { position: absolute; inset: 0; width: 100%; height: 100%; transition: opacity .18s var(--ease); }
+    .flag-regime { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; text-align: center; padding: .6rem; font-size: 13px; line-height: 1.4; font-weight: 600; color: var(--ink-700); opacity: 0; background: var(--paper); transition: opacity .18s var(--ease); }
+    .flag-box:hover svg.flag-img { opacity: 0; }
+    .flag-box:hover .flag-regime { opacity: 1; }
+    .flag-name { margin-top: .55rem; font-weight: 600; font-size: 14px; color: var(--ink-700); }
+    @media (max-width: 720px) { .flag-grid { grid-template-columns: repeat(2, 1fr); } }
+</style>
 </head>
 <body>
 
@@ -28,23 +39,23 @@
       <span class="brand__mark"><span></span><span></span><span></span></span>
       <span class="brand__text">
         <span class="brand__name">BelComply</span>
-        <span class="brand__tag">比利时合规</span>
+        <span class="brand__tag">EU Compliance</span>
       </span>
     </a>
-    <nav class="main-nav" aria-label="主导航">
+    <nav class="main-nav" aria-label="Main navigation">
       <a href="./">首页</a>
       <a href="services">服务</a>
       <a href="coverage" class="active">覆盖范围</a>
       <a href="why-us">为何选我们</a>
       <a href="blog">博客</a>
-      <a href="about">关于我们</a>
-      <a href="faq">FAQ</a>
-      <a href="contact">联系我们</a>
+      <a href="about">关于</a>
+      <a href="faq">常见问题</a>
+      <a href="contact">联系</a>
     </nav>
     <div class="header-actions">
-      <a href="#" class="lang-switch" data-lang-switch>EN</a>
+      <a href="#" class="lang-switch" data-lang-switch>English</a>
       <a href="contact" class="btn btn--gold btn--sm">获取报价</a>
-      <button class="nav-toggle" aria-label="菜单" aria-expanded="false"><span></span><span></span><span></span></button>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
     </div>
   </div>
 </header>
@@ -53,122 +64,83 @@
   <div class="page-hero__inner">
     <div class="crumb"><a href="./">首页</a> / 覆盖范围</div>
     <h1>一个对接点，覆盖全欧洲</h1>
-    <p>比利时，我们直接办理。欧洲其他国家，通过我们认证的伙伴网络协调——您在任何市场，都只有一个对接点。</p>
+    <p>欧洲各国的 EPR 义务，逐国梳理——通过一个对接点为您统一办理。</p>
   </div>
 </section>
 
-<!-- ================= HOW WE WORK ================= -->
 <section class="section">
   <div class="container">
     <div class="section-head">
-      <div class="eyebrow">我们的做法</div>
-      <h2 class="section-title">关键市场直营，其余市场借力</h2>
-      <p class="lead">EPR 不是一套规则，而是各国规则的拼图。我们如实说明哪部分自己做、哪部分协调，让您始终清楚谁在负责。</p>
-    </div>
-
-    <div class="split">
-      <div class="panel">
-        <div class="eyebrow" style="margin-bottom:.5rem">直营服务</div>
-        <h3>🇧🇪 比利时——我们的主场</h3>
-        <p>我们设立于比利时，全程自己办理：Fost Plus 注册、向 EPRiBEL 报备授权书、年度申报、生态费与日常对接。<strong>没有中间商。</strong></p>
-        <ul class="checklist">
-          <li><span class="mark ok">✓</span><span>直连 EPRiBEL、Fost Plus、Valipac、Recupel 与 Bebat</span></li>
-          <li><span class="mark ok">✓</span><span>注册 4–6 周——欧盟最快之一</span></li>
-          <li><span class="mark ok">✓</span><span>由我们自己的比利时实体承担连带责任</span></li>
-        </ul>
-      </div>
-      <div class="panel panel--soft">
-        <div class="eyebrow" style="margin-bottom:.5rem">伙伴网络</div>
-        <h3>🇪🇺 欧洲其他国家</h3>
-        <p>其他欧盟成员国，我们通过认证的本地合规伙伴网络协调。您对接的始终是<strong>我们</strong>——一个联系人、一份报价、一个可问责的主体——而当地注册由持牌本地专家办理。</p>
-        <ul class="checklist">
-          <li><span class="mark ok">✓</span><span>德国、法国、荷兰等市场，一个对接点</span></li>
-          <li><span class="mark ok">✓</span><span>签约前明确告知每个国家由谁办理</span></li>
-          <li><span class="mark ok">✓</span><span>各国周期与费用透明</span></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ================= COVERAGE TABLE ================= -->
-<section class="section section--soft">
-  <div class="container">
-    <div class="section-head">
       <div class="eyebrow">覆盖范围</div>
-      <h2 class="section-title">我们能带您覆盖的市场</h2>
-      <p class="lead">以下是我们最常协调的市场。没有看到您的目标市场？告诉我们，我们可以覆盖更多。</p>
+      <h2 class="section-title">您在哪儿卖，我们就覆盖到哪儿</h2>
+      <p class="lead">把鼠标放在国旗上，即可查看该国的 EPR 制度。没看到您的目标市场？告诉我们，我们可以覆盖更多。</p>
     </div>
 
-    <div class="table-wrap">
-      <table class="data">
-        <thead>
-          <tr><th>国家</th><th>EPR 体系</th><th>服务方式</th><th>参考周期</th></tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>🇧🇪 比利时</td>
-            <td>Fost Plus / Valipac + EPRiBEL——从第一件起强制指定 AR</td>
-            <td class="yes">直营——自己办理</td>
-            <td>4–6 周</td>
-          </tr>
-          <tr>
-            <td>🇩🇪 德国</td>
-            <td>LUCID（ZSVR）+ 双系统</td>
-            <td>伙伴网络</td>
-            <td>12–14 周</td>
-          </tr>
-          <tr>
-            <td>🇫🇷 法国</td>
-            <td>ADEME + 各 PRO（CITEO、Léko…）</td>
-            <td>伙伴网络</td>
-            <td>联系我们</td>
-          </tr>
-          <tr>
-            <td>🇳🇱 荷兰</td>
-            <td>Verpact——50,000 kg 门槛</td>
-            <td>伙伴网络</td>
-            <td>联系我们</td>
-          </tr>
-          <tr>
-            <td>🇮🇹 意大利</td>
-            <td>CONAI</td>
-            <td>伙伴网络</td>
-            <td>联系我们</td>
-          </tr>
-          <tr>
-            <td>🇪🇸 西班牙</td>
-            <td>Ecoembes / SCRAP</td>
-            <td>伙伴网络</td>
-            <td>联系我们</td>
-          </tr>
-          <tr>
-            <td>🇦🇹 奥地利</td>
-            <td>ARA</td>
-            <td>伙伴网络</td>
-            <td>12–14 周</td>
-          </tr>
-          <tr>
-            <td>🇵🇱 波兰</td>
-            <td>BDO + PRO</td>
-            <td>伙伴网络</td>
-            <td>联系我们</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="callout callout--info" style="margin-top:2rem">
-      <p><b>如实说明：</b>比利时是我们的主场——我们全程自己办理。其他每个国家，我们通过认证的持牌本地专家网络协调。签约<em>之前</em>，我们会明确告诉您每个国家由谁办理、周期多长、费用多少。没有意外，也不夸大其词。</p>
+    <div class="flag-grid">
+        <div class="flag-card">
+          <div class="flag-box">
+            <svg class="flag-img" viewBox="0 0 60 40" role="img" aria-label="比利时"><rect width="20" height="40" fill="#000000"/><rect x="20" width="20" height="40" fill="#FDDA24"/><rect x="40" width="20" height="40" fill="#EF3340"/></svg>
+            <div class="flag-regime">Fost Plus / Valipac<br>+ EPRiBEL</div>
+          </div>
+          <div class="flag-name">比利时</div>
+        </div>
+        <div class="flag-card">
+          <div class="flag-box">
+            <svg class="flag-img" viewBox="0 0 60 40" role="img" aria-label="德国"><rect width="60" height="13.33" fill="#000000"/><rect y="13.33" width="60" height="13.34" fill="#DD0000"/><rect y="26.67" width="60" height="13.33" fill="#FFCE00"/></svg>
+            <div class="flag-regime">LUCID（ZSVR）<br>+ 二元体系</div>
+          </div>
+          <div class="flag-name">德国</div>
+        </div>
+        <div class="flag-card">
+          <div class="flag-box">
+            <svg class="flag-img" viewBox="0 0 60 40" role="img" aria-label="法国"><rect width="20" height="40" fill="#0055A4"/><rect x="20" width="20" height="40" fill="#FFFFFF"/><rect x="40" width="20" height="40" fill="#EF4135"/></svg>
+            <div class="flag-regime">ADEME + PRO<br>（CITEO、Léko…）</div>
+          </div>
+          <div class="flag-name">法国</div>
+        </div>
+        <div class="flag-card">
+          <div class="flag-box">
+            <svg class="flag-img" viewBox="0 0 60 40" role="img" aria-label="荷兰"><rect width="60" height="13.33" fill="#AE1C28"/><rect y="13.33" width="60" height="13.34" fill="#FFFFFF"/><rect y="26.67" width="60" height="13.33" fill="#21468B"/></svg>
+            <div class="flag-regime">Verpact<br>50,000 kg 门槛</div>
+          </div>
+          <div class="flag-name">荷兰</div>
+        </div>
+        <div class="flag-card">
+          <div class="flag-box">
+            <svg class="flag-img" viewBox="0 0 60 40" role="img" aria-label="意大利"><rect width="20" height="40" fill="#009246"/><rect x="20" width="20" height="40" fill="#FFFFFF"/><rect x="40" width="20" height="40" fill="#CE2B37"/></svg>
+            <div class="flag-regime">CONAI</div>
+          </div>
+          <div class="flag-name">意大利</div>
+        </div>
+        <div class="flag-card">
+          <div class="flag-box">
+            <svg class="flag-img" viewBox="0 0 60 40" role="img" aria-label="西班牙"><rect width="60" height="10" fill="#AA151B"/><rect y="10" width="60" height="20" fill="#F1BF00"/><rect y="30" width="60" height="10" fill="#AA151B"/></svg>
+            <div class="flag-regime">Ecoembes / SCRAP</div>
+          </div>
+          <div class="flag-name">西班牙</div>
+        </div>
+        <div class="flag-card">
+          <div class="flag-box">
+            <svg class="flag-img" viewBox="0 0 60 40" role="img" aria-label="奥地利"><rect width="60" height="13.33" fill="#ED2939"/><rect y="13.33" width="60" height="13.34" fill="#FFFFFF"/><rect y="26.67" width="60" height="13.33" fill="#ED2939"/></svg>
+            <div class="flag-regime">ARA</div>
+          </div>
+          <div class="flag-name">奥地利</div>
+        </div>
+        <div class="flag-card">
+          <div class="flag-box">
+            <svg class="flag-img" viewBox="0 0 60 40" role="img" aria-label="波兰"><rect width="60" height="20" fill="#FFFFFF"/><rect y="20" width="60" height="20" fill="#DC143C"/></svg>
+            <div class="flag-regime">BDO + PRO</div>
+          </div>
+          <div class="flag-name">波兰</div>
+        </div>
     </div>
   </div>
 </section>
 
-<!-- ================= CTA ================= -->
 <section class="section section--navy">
   <div class="container" style="text-align:center">
-    <h2 style="color:#fff">您在不止一个欧盟市场销售？</h2>
-    <p class="lead" style="color:rgba(255,255,255,.72); margin:0 auto 2rem">告诉我们您的产品品类和销售渠道，我们帮您梳理每个国家的义务，并给出一份整合报价。</p>
+    <h2 style="color:#fff">卖到不止一个欧盟市场？</h2>
+    <p class="lead" style="color:rgba(255,255,255,.72); margin:0 auto 2rem">告诉我们您的产品品类和销售渠道——我们会梳理您在每一个国家的义务，并给出一份汇总报价。</p>
     <a href="contact" class="btn btn--gold btn--lg">梳理我的义务 <span class="arrow">→</span></a>
   </div>
 </section>
@@ -180,10 +152,10 @@
         <span class="brand__mark"><span></span><span></span><span></span></span>
         <span class="brand__text">
           <span class="brand__name" style="color:#fff">BelComply</span>
-          <span class="brand__tag">比利时合规</span>
+          <span class="brand__tag">EU Compliance</span>
         </span>
       </a>
-      <p>面向美国、英国及其他非欧盟跨境电商卖家的比利时 EPR 授权代表，并通过认证伙伴网络提供欧洲覆盖。</p>
+      <p>面向美国、英国及其他非欧盟跨境电商卖家的欧盟 EPR 授权代表。我们承担责任，您安心销售。</p>
     </div>
     <div>
       <h4>页面</h4>
@@ -191,12 +163,12 @@
       <a href="coverage">覆盖范围</a>
       <a href="why-us">为何选我们</a>
       <a href="blog">博客</a>
-      <a href="faq">FAQ</a>
+      <a href="faq">常见问题</a>
     </div>
     <div>
       <h4>公司</h4>
-      <a href="about">关于我们</a>
-      <a href="contact">联系我们</a>
+      <a href="about">关于</a>
+      <a href="contact">联系</a>
     </div>
     <div>
       <h4>官方来源</h4>
@@ -207,8 +179,8 @@
     </div>
   </div>
   <div class="site-footer__legal">
-    <span>© <span data-year>2026</span> BelComply · 比利时合规。保留所有权利。</span>
-    <span>info@belcomply.com · WhatsApp +32 486 80 46 68 · 比利时</span>
+    <span>© <span data-year>2026</span> BelComply · EU Compliance. 版权所有。</span>
+    <span>info@belcomply.com · WhatsApp +32 486 80 46 68 · 比利时 · KBO 1043.925.777 · VAT BE 1043.925.777</span>
   </div>
 </footer>
 
