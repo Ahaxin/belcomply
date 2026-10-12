@@ -111,4 +111,19 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-europe"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-europe"/>
   </url>
+  <url>
+    <loc>https://belcomply.com/en/post-article-45</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-article-45"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-article-45"/>
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/post-ppwr-doc</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-ppwr-doc"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-ppwr-doc"/>
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/post-epr-registration-numbers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-epr-registration-numbers"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-epr-registration-numbers"/>
+  </url>
 </urlset>
