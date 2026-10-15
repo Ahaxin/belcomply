@@ -146,4 +146,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-epr-registration-numbers"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-epr-registration-numbers"/>
   </url>
+  <url>
+    <loc>https://belcomply.com/epr-compliance-for-us-companies</loc>
+  </url>
 </urlset>
