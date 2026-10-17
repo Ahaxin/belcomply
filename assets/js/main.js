@@ -53,4 +53,3 @@
     el.textContent = new Date().getFullYear();
   });
 })();
-
