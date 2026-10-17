@@ -1,0 +1,906 @@
+{
+  "date": "2026-10-18",
+  "scope": "74 canonical local source pages; not proof of actual crawling/indexing/AI inclusion",
+  "canonical_pages": 74,
+  "errors": [],
+  "reachability": {
+    "https://belcomply.com/": {
+      "reachable": 74,
+      "unreachable": []
+    },
+    "https://belcomply.com/zh/": {
+      "reachable": 74,
+      "unreachable": []
+    }
+  },
+  "pages": [
+    {
+      "url": "https://belcomply.com/en/about",
+      "title": "About BelComply | Belgium & EU EPR Compliance",
+      "title_chars": 45,
+      "description_chars": 145,
+      "schema": [
+        "Organization",
+        "AboutPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/about",
+      "title": "关于BelComply｜比利时与欧盟EPR合规服务",
+      "title_chars": 25,
+      "description_chars": 65,
+      "schema": [
+        "Organization",
+        "AboutPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/blog",
+      "title": "EU EPR & PPWR Guides for Overseas Sellers | BelComply",
+      "title_chars": 53,
+      "description_chars": 162,
+      "schema": [
+        "Organization",
+        "CollectionPage",
+        "BreadcrumbList",
+        "ItemList"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/blog",
+      "title": "欧盟EPR与PPWR指南｜跨境卖家合规知识｜BelComply",
+      "title_chars": 31,
+      "description_chars": 72,
+      "schema": [
+        "Organization",
+        "CollectionPage",
+        "BreadcrumbList",
+        "ItemList"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/contact",
+      "title": "Contact BelComply | Belgium & EU EPR Compliance Support",
+      "title_chars": 55,
+      "description_chars": 143,
+      "schema": [
+        "Organization",
+        "ContactPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/contact",
+      "title": "联系BelComply｜比利时与欧盟EPR合规咨询",
+      "title_chars": 25,
+      "description_chars": 65,
+      "schema": [
+        "Organization",
+        "ContactPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/coverage",
+      "title": "EU EPR Coverage | All 27 Member States | BelComply",
+      "title_chars": 50,
+      "description_chars": 144,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/coverage",
+      "title": "欧盟EPR国家覆盖｜欧盟27国覆盖服务｜BelComply",
+      "title_chars": 29,
+      "description_chars": 65,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/faq",
+      "title": "Belgium & EU EPR FAQ | Registration & AR | BelComply",
+      "title_chars": 52,
+      "description_chars": 147,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/faq",
+      "title": "比利时与欧盟EPR常见问题｜注册及授权代表｜BelComply",
+      "title_chars": 31,
+      "description_chars": 62,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/",
+      "title": "EU EPR Compliance for US, UK & China Sellers | BelComply",
+      "title_chars": 56,
+      "description_chars": 146,
+      "schema": [
+        "Organization",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/",
+      "title": "欧盟EPR合规服务｜美国、英国与中国卖家｜BelComply",
+      "title_chars": 30,
+      "description_chars": 63,
+      "schema": [
+        "Organization",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-300kg",
+      "title": "Belgium EPR: The 300 kg Packaging Threshold | BelComply",
+      "title_chars": 55,
+      "description_chars": 163,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article",
+        "FAQPage"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-300kg",
+      "title": "比利时EPR的300公斤门槛｜包装义务如何区分｜BelComply",
+      "title_chars": 33,
+      "description_chars": 77,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article",
+        "FAQPage"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-amazon-enforcement",
+      "title": "Amazon EPR Enforcement: Read the Actual Notice | BelComply",
+      "title_chars": 58,
+      "description_chars": 162,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-amazon-enforcement",
+      "title": "Amazon EPR执行要求｜按国家与废物流核查｜BelComply",
+      "title_chars": 34,
+      "description_chars": 69,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-amazon-epr-verification",
+      "title": "Amazon EPR Verification: Which Numbers Do You Need? | BelComply",
+      "title_chars": 63,
+      "description_chars": 132,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-amazon-epr-verification",
+      "title": "Amazon EPR核验：应提供哪些注册编号？｜BelComply",
+      "title_chars": 33,
+      "description_chars": 71,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-amazon-fba-epr",
+      "title": "Amazon FBA & EU EPR: Who Is Responsible? | BelComply",
+      "title_chars": 52,
+      "description_chars": 161,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-amazon-fba-epr",
+      "title": "Amazon FBA与欧盟EPR｜包装责任如何判断？｜BelComply",
+      "title_chars": 36,
+      "description_chars": 75,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-ar-costs-timeline",
+      "title": "Belgium EPR Representative: Costs, Scope & Timeline | BelComply",
+      "title_chars": 63,
+      "description_chars": 141,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-ar-costs-timeline",
+      "title": "比利时EPR授权代表：费用、范围与办理时间｜BelComply",
+      "title_chars": 31,
+      "description_chars": 71,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-article-45",
+      "title": "PPWR Article 45: EPR & Authorised Representatives | BelComply",
+      "title_chars": 61,
+      "description_chars": 124,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-article-45",
+      "title": "PPWR第45条：EPR责任与授权代表规则｜BelComply",
+      "title_chars": 31,
+      "description_chars": 67,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-dtc-eu-epr",
+      "title": "EU EPR for DTC Brands: A Launch Checklist | BelComply",
+      "title_chars": 53,
+      "description_chars": 162,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-dtc-eu-epr",
+      "title": "DTC独立站欧盟EPR｜品牌出海准备清单｜BelComply",
+      "title_chars": 30,
+      "description_chars": 69,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-epr-registration-numbers",
+      "title": "EU EPR Numbers: Registration vs Membership | BelComply",
+      "title_chars": 54,
+      "description_chars": 161,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-epr-registration-numbers",
+      "title": "欧盟EPR编号｜注册号、会员号与平台核验｜BelComply",
+      "title_chars": 30,
+      "description_chars": 68,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-epr-vs-vat",
+      "title": "EU EPR vs VAT: Separate Compliance Duties | BelComply",
+      "title_chars": 53,
+      "description_chars": 155,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-epr-vs-vat",
+      "title": "欧盟EPR与VAT有什么区别？｜注册与责任范围｜BelComply",
+      "title_chars": 33,
+      "description_chars": 71,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-eu-producer-register",
+      "title": "PPWR Producer Registers: EU vs National Rules | BelComply",
+      "title_chars": 57,
+      "description_chars": 165,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-eu-producer-register",
+      "title": "PPWR生产者注册系统｜欧盟规则与各国登记｜BelComply",
+      "title_chars": 31,
+      "description_chars": 70,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-europe",
+      "title": "EU EPR by Country: Plan Multi-Market Sales | BelComply",
+      "title_chars": 54,
+      "description_chars": 164,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-europe",
+      "title": "欧盟各国EPR规划｜多市场注册与申报清单｜BelComply",
+      "title_chars": 30,
+      "description_chars": 67,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-germany-ar-deadline",
+      "title": "Germany Packaging EPR: LUCID & AR Rules | BelComply",
+      "title_chars": 51,
+      "description_chars": 163,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-germany-ar-deadline",
+      "title": "德国包装EPR｜LUCID注册与授权代表规则｜BelComply",
+      "title_chars": 32,
+      "description_chars": 70,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-ppwr-doc",
+      "title": "PPWR Declaration of Conformity: Packaging Evidence | BelComply",
+      "title_chars": 62,
+      "description_chars": 161,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-ppwr-doc",
+      "title": "PPWR包装符合性声明｜责任主体与证据准备｜BelComply",
+      "title_chars": 31,
+      "description_chars": 68,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-ppwr-registration",
+      "title": "PPWR Registration: Prepare Your Seller File | BelComply",
+      "title_chars": 55,
+      "description_chars": 161,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-ppwr-registration",
+      "title": "PPWR注册准备｜跨境卖家资料与办理步骤｜BelComply",
+      "title_chars": 30,
+      "description_chars": 71,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-ppwr-suspension",
+      "title": "PPWR AR Suspension Proposal: What Is Actually Law? | BelComply",
+      "title_chars": 62,
+      "description_chars": 136,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-ppwr-suspension",
+      "title": "PPWR授权代表暂停提案：哪些规则已经生效？｜BelComply",
+      "title_chars": 32,
+      "description_chars": 71,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-ppwr",
+      "title": "PPWR & Belgium EPR: Your Compliance Workstreams | BelComply",
+      "title_chars": 59,
+      "description_chars": 153,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-ppwr",
+      "title": "PPWR与比利时EPR｜跨境企业合规任务指南｜BelComply",
+      "title_chars": 32,
+      "description_chars": 69,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-tiktok-shop-belgium",
+      "title": "TikTok Shop Belgium EPR: Seller Preparation | BelComply",
+      "title_chars": 55,
+      "description_chars": 158,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-tiktok-shop-belgium",
+      "title": "TikTok Shop比利时EPR｜卖家合规准备指南｜BelComply",
+      "title_chars": 36,
+      "description_chars": 77,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-uk-sellers-brexit",
+      "title": "EU EPR for UK Sellers: Belgium Packaging Guide | BelComply",
+      "title_chars": 58,
+      "description_chars": 162,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-uk-sellers-brexit",
+      "title": "英国卖家欧盟EPR指南｜比利时包装合规｜BelComply",
+      "title_chars": 29,
+      "description_chars": 78,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-us-sellers-ppwr",
+      "title": "EU EPR for US Sellers: Belgium & PPWR Guide | BelComply",
+      "title_chars": 55,
+      "description_chars": 157,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-us-sellers-ppwr",
+      "title": "美国卖家欧盟EPR指南｜比利时包装与PPWR｜BelComply",
+      "title_chars": 32,
+      "description_chars": 73,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-weee-registration",
+      "title": "Belgium WEEE Registration for Overseas Sellers | BelComply",
+      "title_chars": 58,
+      "description_chars": 157,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-weee-registration",
+      "title": "比利时WEEE注册指南｜境外电子电器卖家｜BelComply",
+      "title_chars": 30,
+      "description_chars": 77,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-who-needs-ar",
+      "title": "Belgian EPR Representative: Who Needs a Mandate? | BelComply",
+      "title_chars": 60,
+      "description_chars": 156,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-who-needs-ar",
+      "title": "谁需要比利时EPR授权代表？｜PPWR书面授权｜BelComply",
+      "title_chars": 33,
+      "description_chars": 72,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/services",
+      "title": "EU EPR Services | Belgium Registration & AR | BelComply",
+      "title_chars": 55,
+      "description_chars": 146,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Service"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/services",
+      "title": "欧盟EPR服务｜比利时注册与PPWR授权代表｜BelComply",
+      "title_chars": 32,
+      "description_chars": 67,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Service"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/why-us",
+      "title": "Why BelComply | Belgium Expertise, EU EPR Coverage",
+      "title_chars": 50,
+      "description_chars": 147,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/why-us",
+      "title": "为什么选择BelComply｜比利时专长与欧盟EPR覆盖",
+      "title_chars": 28,
+      "description_chars": 68,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/epr-compliance-for-us-companies",
+      "title": "EU EPR for US Businesses | Belgium Focus | BelComply",
+      "title_chars": 52,
+      "description_chars": 152,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Service"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/epr-compliance-for-us-companies",
+      "title": "美国企业欧盟EPR服务｜比利时重点支持｜BelComply",
+      "title_chars": 29,
+      "description_chars": 63,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Service"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/belgium-epr",
+      "title": "Belgium EPR Registration & PPWR AR | BelComply",
+      "title_chars": 46,
+      "description_chars": 140,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Service",
+        "FAQPage"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/belgium-epr",
+      "title": "比利时EPR注册与PPWR授权代表｜BelComply",
+      "title_chars": 27,
+      "description_chars": 68,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Service",
+        "FAQPage"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/gpsr",
+      "title": "GPSR & EU Responsible Person Services | BelComply",
+      "title_chars": 49,
+      "description_chars": 152,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Service"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/gpsr",
+      "title": "GPSR与欧盟产品安全责任人服务｜BelComply",
+      "title_chars": 26,
+      "description_chars": 62,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Service"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/uk-sellers",
+      "title": "EU EPR for UK Businesses | Belgium Focus | BelComply",
+      "title_chars": 52,
+      "description_chars": 152,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Service"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/uk-sellers",
+      "title": "英国企业欧盟EPR服务｜比利时重点支持｜BelComply",
+      "title_chars": 29,
+      "description_chars": 63,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Service"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/china-sellers",
+      "title": "EU EPR for Chinese Businesses | Belgium Focus | BelComply",
+      "title_chars": 57,
+      "description_chars": 157,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Service"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/china-sellers",
+      "title": "中国企业欧盟EPR服务｜比利时重点支持｜BelComply",
+      "title_chars": 29,
+      "description_chars": 63,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList",
+        "Service"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-zalando-epr-verification",
+      "title": "Zalando EPR Verification: Belgium zDirect Requirements | BelComply",
+      "title_chars": 66,
+      "description_chars": 142,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-zalando-epr-verification",
+      "title": "Zalando EPR核验｜比利时zDirect提交要求 | BelComply",
+      "title_chars": 40,
+      "description_chars": 51,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-bol-epr-verification",
+      "title": "bol EPR Requirements: Belgium & Netherlands Seller Guide | BelComply",
+      "title_chars": 68,
+      "description_chars": 146,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-bol-epr-verification",
+      "title": "bol EPR要求｜比利时与荷兰卖家核验指南 | BelComply",
+      "title_chars": 34,
+      "description_chars": 45,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/en/post-ebay-epr-verification",
+      "title": "eBay Packaging EPR: Country Registration Submission Guide | BelComply",
+      "title_chars": 69,
+      "description_chars": 149,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "https://belcomply.com/zh/post-ebay-epr-verification",
+      "title": "eBay包装EPR｜各国注册资料提交指南 | BelComply",
+      "title_chars": 32,
+      "description_chars": 48,
+      "schema": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ]
+    }
+  ],
+  "robots_txt": "User-agent: *\nAllow: /\n\n# AI / generative-engine crawlers — explicitly welcome (GEO)\nUser-agent: GPTBot\nAllow: /\nUser-agent: PerplexityBot\nAllow: /\nUser-agent: ClaudeBot\nAllow: /\nUser-agent: Google-Extended\nAllow: /\nUser-agent: OAI-SearchBot\nAllow: /\nUser-agent: Meta-ExternalAgent\nAllow: /\nUser-agent: Applebot-Extended\nAllow: /\nUser-agent: Amazonbot\nAllow: /\n\nSitemap: https://belcomply.com/sitemap.xml\n",
+  "not_verified": [
+    "GSC generative AI inclusion setting",
+    "CDN crawler restrictions and genuine crawler logs",
+    "Indexing of new pages",
+    "AI citations and recommendations"
+  ],
+  "llms_txt": "Updated as supplementary navigation; Google says it does not use llms.txt for visibility or ranking."
+}

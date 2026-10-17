@@ -16,3 +16,11 @@
 
 ## Scope
 Assess obligations by legal entity, country, sales route and waste stream. Packaging, WEEE and batteries have distinct requirements. This file describes the website; it is not evidence of registration, a legal exemption, or guaranteed search/AI inclusion.
+
+## Marketplace verification guides
+- [Zalando EPR Verification: Belgium zDirect Requirements](https://belcomply.com/en/post-zalando-epr-verification)
+- [Zalando EPR核验｜比利时zDirect提交要求](https://belcomply.com/zh/post-zalando-epr-verification)
+- [bol EPR Requirements: Belgium & Netherlands Seller Guide](https://belcomply.com/en/post-bol-epr-verification)
+- [bol EPR要求｜比利时与荷兰卖家核验指南](https://belcomply.com/zh/post-bol-epr-verification)
+- [eBay Packaging EPR: Country Registration Submission Guide](https://belcomply.com/en/post-ebay-epr-verification)
+- [eBay包装EPR｜各国注册资料提交指南](https://belcomply.com/zh/post-ebay-epr-verification)
