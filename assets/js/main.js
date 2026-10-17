@@ -5,22 +5,15 @@
   /* Language switch: /zh/xxx.html  <->  /en/xxx.html */
   var langLink = document.querySelector("[data-lang-switch]");
   if (langLink) {
-    var parts = window.location.pathname.split("/").filter(function (p) {
-      return p && p !== ".";
-    });
-    var file = "index.html";
-    var lang = "en";
-    if (parts.length >= 1) {
-      var last = parts[parts.length - 1];
-      if (/\.html$/.test(last)) {
-        file = last;
-        lang = parts[parts.length - 2] === "zh" ? "zh" : "en";
-      } else {
-        lang = last === "zh" ? "zh" : "en";
-      }
-    }
+    var match = window.location.pathname.match(/^\/(en|zh)(?:\/|$)(.*)$/);
+    var lang = match ? match[1] : "en";
     var target = lang === "zh" ? "en" : "zh";
-    langLink.href = "../" + target + "/" + file;
+    var tail = match ? match[2] : "";
+    if (!tail || tail === "index.html") {
+      langLink.href = "/" + target + "/";
+    } else {
+      langLink.href = "/" + target + "/" + tail;
+    }
     langLink.textContent = lang === "zh" ? "EN" : "中文";
     langLink.setAttribute("aria-label", lang === "zh" ? "Switch to English" : "切换至中文");
   }
@@ -60,3 +53,4 @@
     el.textContent = new Date().getFullYear();
   });
 })();
+
