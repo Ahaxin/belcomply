@@ -897,10 +897,97 @@
   ],
   "robots_txt": "User-agent: *\nAllow: /\n\n# AI / generative-engine crawlers — explicitly welcome (GEO)\nUser-agent: GPTBot\nAllow: /\nUser-agent: PerplexityBot\nAllow: /\nUser-agent: ClaudeBot\nAllow: /\nUser-agent: Google-Extended\nAllow: /\nUser-agent: OAI-SearchBot\nAllow: /\nUser-agent: Meta-ExternalAgent\nAllow: /\nUser-agent: Applebot-Extended\nAllow: /\nUser-agent: Amazonbot\nAllow: /\n\nSitemap: https://belcomply.com/sitemap.xml\n",
   "not_verified": [
-    "GSC generative AI inclusion setting",
     "CDN crawler restrictions and genuine crawler logs",
     "Indexing of new pages",
     "AI citations and recommendations"
   ],
-  "llms_txt": "Updated as supplementary navigation; Google says it does not use llms.txt for visibility or ranking."
+  "llms_txt": "Updated as supplementary navigation; Google says it does not use llms.txt for visibility or ranking.",
+  "live_new_guide_checks": [
+    {
+      "body": true,
+      "canonical": "https://belcomply.com/en/post-zalando-epr-verification",
+      "h1": "Zalando EPR Verification: Belgium zDirect Requirements",
+      "schemas": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ],
+      "title": "Zalando EPR Verification: Belgium zDirect Requirements | BelComply",
+      "url": "https://belcomply.com/en/post-zalando-epr-verification"
+    },
+    {
+      "body": true,
+      "canonical": "https://belcomply.com/en/post-bol-epr-verification",
+      "h1": "bol EPR Requirements: Belgium & Netherlands Seller Guide",
+      "schemas": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ],
+      "title": "bol EPR Requirements: Belgium & Netherlands Seller Guide | BelComply",
+      "url": "https://belcomply.com/en/post-bol-epr-verification"
+    },
+    {
+      "body": true,
+      "canonical": "https://belcomply.com/en/post-ebay-epr-verification",
+      "h1": "eBay Packaging EPR: Country Registration Submission Guide",
+      "schemas": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ],
+      "title": "eBay Packaging EPR: Country Registration Submission Guide | BelComply",
+      "url": "https://belcomply.com/en/post-ebay-epr-verification"
+    },
+    {
+      "body": true,
+      "canonical": "https://belcomply.com/zh/post-zalando-epr-verification",
+      "h1": "Zalando EPR核验｜比利时zDirect提交要求",
+      "schemas": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ],
+      "title": "Zalando EPR核验｜比利时zDirect提交要求 | BelComply",
+      "url": "https://belcomply.com/zh/post-zalando-epr-verification"
+    },
+    {
+      "body": true,
+      "canonical": "https://belcomply.com/zh/post-bol-epr-verification",
+      "h1": "bol EPR要求｜比利时与荷兰卖家核验指南",
+      "schemas": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ],
+      "title": "bol EPR要求｜比利时与荷兰卖家核验指南 | BelComply",
+      "url": "https://belcomply.com/zh/post-bol-epr-verification"
+    },
+    {
+      "body": true,
+      "canonical": "https://belcomply.com/zh/post-ebay-epr-verification",
+      "h1": "eBay包装EPR｜各国注册资料提交指南",
+      "schemas": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ],
+      "title": "eBay包装EPR｜各国注册资料提交指南 | BelComply",
+      "url": "https://belcomply.com/zh/post-ebay-epr-verification"
+    }
+  ],
+  "GSC": {
+    "sitemapStatus": "Success",
+    "discoveredPages": 74,
+    "submittedDate": "18 Oct 2026",
+    "lastRead": "18 Oct 2026",
+    "searchGenerativeAI": "Include"
+  },
+  "live_bulk_HTTP_check": "Command-line request returned HTTP403; no all-page live HTTP pass claimed. Six new pages verified through browser; no conclusion about genuine crawler blocking."
 }
