@@ -496,3 +496,25 @@ table.data .no  { color: var(--warn); font-weight: 600; }
 }
 
 @media(max-width:760px){.contact-form-panel h2{display:none}.contact-intro h1{font-size:24px}.contact-form-panel{padding:14px}}
+
+/* Country flags: hover, keyboard focus and tap reveal coverage. */
+.coverage-instruction{color:var(--ink-500);font-size:15px;margin-bottom:30px}
+.coverage-flag-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:30px 18px;margin:30px 0 64px}
+.coverage-flag{position:relative;text-align:center;min-width:0}
+.coverage-flag summary{cursor:pointer;list-style:none;display:flex;flex-direction:column;align-items:center;gap:10px;padding:12px;border-radius:8px}
+.coverage-flag summary::-webkit-details-marker{display:none}
+.coverage-flag__icon{display:block;width:80px;height:80px;border-radius:50%;overflow:hidden;border:1px solid var(--line);box-shadow:0 4px 14px #07152712;transition:transform .18s ease}
+.coverage-flag__icon img{object-fit:cover;width:100%;height:100%;display:block}
+.coverage-flag__name{font-size:14px;font-weight:600;color:var(--navy-800)}
+.coverage-flag__hint{font-size:15px;line-height:1;color:var(--gold-600)}
+.coverage-flag .coverage-flag__info{display:block;position:absolute;top:100%;left:50%;transform:translateX(-50%);width:240px;max-width:80vw;padding:18px;background:#fff;border:1px solid var(--line);border-top:3px solid var(--gold-500);border-radius:6px;box-shadow:0 12px 36px #07152720;text-align:left;z-index:5;visibility:hidden;opacity:0;pointer-events:none}
+.coverage-flag__info h3{font-size:18px;margin:0 0 9px}
+.coverage-flag__info p{font-size:13px;line-height:1.65;margin:0 0 12px;color:var(--ink-500)}
+.coverage-flag__info a{font-size:13px;font-weight:600}
+.coverage-flag[open] .coverage-flag__info,.coverage-flag:focus-within .coverage-flag__info{visibility:visible;opacity:1;pointer-events:auto}
+.coverage-flag[open]{z-index:6}
+@media(hover:hover){.coverage-flag:hover{z-index:7}.coverage-flag:hover .coverage-flag__info{visibility:visible;opacity:1;pointer-events:auto}.coverage-flag:hover .coverage-flag__icon{transform:translateY(-4px)}}
+@media(max-width:980px){.coverage-flag-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:600px){.coverage-flag-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px 6px}.coverage-flag__icon{width:60px;height:60px}.coverage-flag summary{padding:8px 2px}.coverage-flag__name{font-size:12px}.coverage-flag .coverage-flag__info{width:210px}.coverage-flag:nth-child(3n+1) .coverage-flag__info{left:0;transform:none}.coverage-flag:nth-child(3n) .coverage-flag__info{left:auto;right:0;transform:none}}
+@media(prefers-reduced-motion:reduce){.coverage-flag__icon{transition:none}}
+.coverage-flag::details-content{content-visibility:visible}
