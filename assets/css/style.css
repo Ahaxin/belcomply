@@ -158,13 +158,11 @@ strong { color: var(--navy-900); }
   display: flex; align-items: center; gap: 2rem; height: 72px;
 }
 .brand { display: flex; align-items: center; gap: .7rem; text-decoration: none; flex-shrink: 0; }
-.brand__mark { display: flex; align-items: stretch; height: 28px; aspect-ratio: 15 / 13; border: 1px solid var(--line-strong); border-radius: 2px; overflow: hidden; }
-.brand__mark span { flex: 1; }
-.brand__mark span:nth-child(1) { background: #000000; }  /* Belgian black */
-.brand__mark span:nth-child(2) { background: #FDDA24; }  /* Belgian yellow */
-.brand__mark span:nth-child(3) { background: #EF3340; }  /* Belgian red */
 .brand__text { display: flex; flex-direction: column; line-height: 1.1; }
-.brand__name { font-family: var(--serif); font-size: 20px; font-weight: 700; color: var(--navy-900); letter-spacing: .01em; }
+.brand__name { font-family: Arial, Helvetica, sans-serif; font-size: 30px; font-weight: 700; color: #153b63; letter-spacing: 0; line-height: 1.1; white-space: nowrap; }
+.brand__bel { color: #153b63; }
+.brand__comply { color: #d1a51f; }
+.site-footer .brand__bel { color: #fff; }
 .brand__tag  { font-family: var(--sans); font-size: 10px; font-weight: 600; letter-spacing: .22em; text-transform: uppercase; color: var(--gold-600); }
 
 .main-nav { display: flex; align-items: center; gap: 1.75rem; margin-left: auto; }
