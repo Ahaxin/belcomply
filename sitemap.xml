@@ -1,152 +1,411 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version='1.0' encoding='utf-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://belcomply.com/en/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/"/>
+    <loc>https://belcomply.com/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/about" />
   </url>
   <url>
-    <loc>https://belcomply.com/en/services</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/services"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/services"/>
-  </url>
-  <url>
-    <loc>https://belcomply.com/en/coverage</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/coverage"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/coverage"/>
-  </url>
-  <url>
-    <loc>https://belcomply.com/en/why-us</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/why-us"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/why-us"/>
+    <loc>https://belcomply.com/zh/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/about" />
   </url>
   <url>
     <loc>https://belcomply.com/en/blog</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/blog"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/blog"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/blog" />
   </url>
   <url>
-    <loc>https://belcomply.com/en/about</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/about"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/about"/>
-  </url>
-  <url>
-    <loc>https://belcomply.com/en/faq</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/faq"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/faq"/>
+    <loc>https://belcomply.com/zh/blog</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/blog" />
   </url>
   <url>
     <loc>https://belcomply.com/en/contact</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/contact"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/contact" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/contact" />
   </url>
   <url>
-    <loc>https://belcomply.com/en/post-us-sellers-ppwr</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-us-sellers-ppwr"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-us-sellers-ppwr"/>
+    <loc>https://belcomply.com/zh/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/contact" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/contact" />
   </url>
   <url>
-    <loc>https://belcomply.com/en/post-uk-sellers-brexit</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-uk-sellers-brexit"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-uk-sellers-brexit"/>
+    <loc>https://belcomply.com/en/coverage</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/coverage" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/coverage" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/coverage" />
   </url>
   <url>
-    <loc>https://belcomply.com/en/post-ar-costs-timeline</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-ar-costs-timeline"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-ar-costs-timeline"/>
+    <loc>https://belcomply.com/zh/coverage</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/coverage" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/coverage" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/coverage" />
   </url>
   <url>
-    <loc>https://belcomply.com/en/post-ppwr</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-ppwr"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-ppwr"/>
+    <loc>https://belcomply.com/en/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/faq" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/faq" />
   </url>
   <url>
-    <loc>https://belcomply.com/en/post-who-needs-ar</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-who-needs-ar"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-who-needs-ar"/>
+    <loc>https://belcomply.com/zh/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/faq" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/faq" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/" />
   </url>
   <url>
     <loc>https://belcomply.com/en/post-300kg</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-300kg"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-300kg"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-300kg" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-300kg" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-300kg" />
   </url>
   <url>
-    <loc>https://belcomply.com/en/post-ppwr-registration</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-ppwr-registration"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-ppwr-registration"/>
-  </url>
-  <url>
-    <loc>https://belcomply.com/en/post-ppwr-suspension</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-ppwr-suspension"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-ppwr-suspension"/>
-  </url>
-  <url>
-    <loc>https://belcomply.com/en/post-eu-producer-register</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-eu-producer-register"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-eu-producer-register"/>
-  </url>
-  <url>
-    <loc>https://belcomply.com/en/post-tiktok-shop-belgium</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-tiktok-shop-belgium"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-tiktok-shop-belgium"/>
-  </url>
-  <url>
-    <loc>https://belcomply.com/en/post-amazon-epr-verification</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-amazon-epr-verification"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-amazon-epr-verification"/>
-  </url>
-  <url>
-    <loc>https://belcomply.com/en/post-germany-ar-deadline</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-germany-ar-deadline"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-germany-ar-deadline"/>
+    <loc>https://belcomply.com/zh/post-300kg</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-300kg" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-300kg" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-300kg" />
   </url>
   <url>
     <loc>https://belcomply.com/en/post-amazon-enforcement</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-amazon-enforcement"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-amazon-enforcement"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-amazon-enforcement" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-amazon-enforcement" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-amazon-enforcement" />
   </url>
   <url>
-    <loc>https://belcomply.com/en/post-europe</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-europe"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-europe"/>
+    <loc>https://belcomply.com/zh/post-amazon-enforcement</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-amazon-enforcement" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-amazon-enforcement" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-amazon-enforcement" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/post-amazon-epr-verification</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-amazon-epr-verification" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-amazon-epr-verification" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-amazon-epr-verification" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/post-amazon-epr-verification</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-amazon-epr-verification" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-amazon-epr-verification" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-amazon-epr-verification" />
   </url>
   <url>
     <loc>https://belcomply.com/en/post-amazon-fba-epr</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-amazon-fba-epr"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-amazon-fba-epr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-amazon-fba-epr" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-amazon-fba-epr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-amazon-fba-epr" />
   </url>
   <url>
-    <loc>https://belcomply.com/en/post-weee-registration</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-weee-registration"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-weee-registration"/>
+    <loc>https://belcomply.com/zh/post-amazon-fba-epr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-amazon-fba-epr" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-amazon-fba-epr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-amazon-fba-epr" />
   </url>
   <url>
-    <loc>https://belcomply.com/en/post-epr-vs-vat</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-epr-vs-vat"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-epr-vs-vat"/>
+    <loc>https://belcomply.com/en/post-ar-costs-timeline</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-ar-costs-timeline" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-ar-costs-timeline" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-ar-costs-timeline" />
   </url>
   <url>
-    <loc>https://belcomply.com/en/post-dtc-eu-epr</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-dtc-eu-epr"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-dtc-eu-epr"/>
+    <loc>https://belcomply.com/zh/post-ar-costs-timeline</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-ar-costs-timeline" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-ar-costs-timeline" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-ar-costs-timeline" />
   </url>
   <url>
     <loc>https://belcomply.com/en/post-article-45</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-article-45"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-article-45"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-article-45" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-article-45" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-article-45" />
   </url>
   <url>
-    <loc>https://belcomply.com/en/post-ppwr-doc</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-ppwr-doc"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-ppwr-doc"/>
+    <loc>https://belcomply.com/zh/post-article-45</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-article-45" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-article-45" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-article-45" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/post-dtc-eu-epr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-dtc-eu-epr" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-dtc-eu-epr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-dtc-eu-epr" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/post-dtc-eu-epr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-dtc-eu-epr" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-dtc-eu-epr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-dtc-eu-epr" />
   </url>
   <url>
     <loc>https://belcomply.com/en/post-epr-registration-numbers</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-epr-registration-numbers"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-epr-registration-numbers"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-epr-registration-numbers" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-epr-registration-numbers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-epr-registration-numbers" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/post-epr-registration-numbers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-epr-registration-numbers" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-epr-registration-numbers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-epr-registration-numbers" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/post-epr-vs-vat</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-epr-vs-vat" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-epr-vs-vat" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-epr-vs-vat" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/post-epr-vs-vat</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-epr-vs-vat" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-epr-vs-vat" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-epr-vs-vat" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/post-eu-producer-register</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-eu-producer-register" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-eu-producer-register" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-eu-producer-register" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/post-eu-producer-register</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-eu-producer-register" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-eu-producer-register" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-eu-producer-register" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/post-europe</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-europe" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-europe" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-europe" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/post-europe</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-europe" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-europe" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-europe" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/post-germany-ar-deadline</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-germany-ar-deadline" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-germany-ar-deadline" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-germany-ar-deadline" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/post-germany-ar-deadline</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-germany-ar-deadline" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-germany-ar-deadline" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-germany-ar-deadline" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/post-ppwr-doc</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-ppwr-doc" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-ppwr-doc" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-ppwr-doc" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/post-ppwr-doc</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-ppwr-doc" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-ppwr-doc" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-ppwr-doc" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/post-ppwr-registration</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-ppwr-registration" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-ppwr-registration" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-ppwr-registration" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/post-ppwr-registration</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-ppwr-registration" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-ppwr-registration" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-ppwr-registration" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/post-ppwr-suspension</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-ppwr-suspension" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-ppwr-suspension" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-ppwr-suspension" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/post-ppwr-suspension</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-ppwr-suspension" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-ppwr-suspension" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-ppwr-suspension" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/post-ppwr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-ppwr" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-ppwr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-ppwr" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/post-ppwr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-ppwr" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-ppwr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-ppwr" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/post-tiktok-shop-belgium</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-tiktok-shop-belgium" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-tiktok-shop-belgium" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-tiktok-shop-belgium" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/post-tiktok-shop-belgium</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-tiktok-shop-belgium" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-tiktok-shop-belgium" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-tiktok-shop-belgium" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/post-uk-sellers-brexit</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-uk-sellers-brexit" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-uk-sellers-brexit" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-uk-sellers-brexit" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/post-uk-sellers-brexit</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-uk-sellers-brexit" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-uk-sellers-brexit" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-uk-sellers-brexit" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/post-us-sellers-ppwr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-us-sellers-ppwr" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-us-sellers-ppwr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-us-sellers-ppwr" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/post-us-sellers-ppwr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-us-sellers-ppwr" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-us-sellers-ppwr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-us-sellers-ppwr" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/post-weee-registration</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-weee-registration" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-weee-registration" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-weee-registration" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/post-weee-registration</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-weee-registration" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-weee-registration" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-weee-registration" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/post-who-needs-ar</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-who-needs-ar" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-who-needs-ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-who-needs-ar" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/post-who-needs-ar</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-who-needs-ar" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-who-needs-ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-who-needs-ar" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/services" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/services" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/services" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/services" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/services" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/services" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/why-us</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/why-us" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/why-us" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/why-us" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/why-us</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/why-us" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/why-us" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/why-us" />
   </url>
   <url>
     <loc>https://belcomply.com/epr-compliance-for-us-companies</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/epr-compliance-for-us-companies" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/epr-compliance-for-us-companies" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/epr-compliance-for-us-companies" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/epr-compliance-for-us-companies</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/epr-compliance-for-us-companies" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/epr-compliance-for-us-companies" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/epr-compliance-for-us-companies" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/belgium-epr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/belgium-epr" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/belgium-epr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/belgium-epr" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/belgium-epr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/belgium-epr" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/belgium-epr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/belgium-epr" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/gpsr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/gpsr" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/gpsr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/gpsr" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/gpsr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/gpsr" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/gpsr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/gpsr" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/uk-sellers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/uk-sellers" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/uk-sellers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/uk-sellers" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/uk-sellers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/uk-sellers" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/uk-sellers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/uk-sellers" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/china-sellers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/china-sellers" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/china-sellers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/china-sellers" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/china-sellers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/china-sellers" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/china-sellers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/china-sellers" />
   </url>
 </urlset>

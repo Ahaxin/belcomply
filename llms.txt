@@ -1,28 +1,18 @@
-# BelComply — EU EPR Authorised Representative
+# BelComply — Belgium-focused EU compliance support
 
-> BelComply is the EU authorised representative (AR) for extended producer responsibility (EPR) for US, UK and other non-EU e-commerce sellers. One partner covering all 27 EU member states, based in Belgium. We appoint authorised representatives, handle EPR registration, manage annual packaging declarations, and provide the registration numbers that marketplaces verify under PPWR Article 45(4).
+> EPR registration, PPWR authorised representation and reporting across all 27 EU member states, with Belgium as the core market. English and Chinese communication for US, UK and Chinese businesses. GPSR product-safety services are independent and are not included in EPR.
 
-## Key pages
+## Main pages
+- [English home](https://belcomply.com/)
+- [中文首页](https://belcomply.com/zh/)
+- [Belgium EPR services](https://belcomply.com/en/belgium-epr)
+- [GPSR — separate service](https://belcomply.com/en/gpsr)
+- [EU country coverage](https://belcomply.com/en/coverage)
+- [US businesses](https://belcomply.com/epr-compliance-for-us-companies)
+- [UK businesses](https://belcomply.com/en/uk-sellers)
+- [Chinese businesses](https://belcomply.com/zh/china-sellers)
+- [Guides](https://belcomply.com/en/blog)
+- [Contact](https://belcomply.com/en/contact)
 
-- [Home](https://belcomply.com/en/): Overview of EU EPR obligations for non-EU sellers and BelComply's authorised representative service.
-- [Services](https://belcomply.com/en/services): AR appointment, EPR registration, packaging compliance and annual declaration services.
-- [Coverage](https://belcomply.com/en/coverage): All 27 EU member states with their national EPR schemes (LUCID, Fost Plus, CITEO, ARA, CONAI and more).
-- [Why Us](https://belcomply.com/en/why-us): Why sellers choose BelComply — Belgium-based, EU-wide, one accountable partner.
-- [FAQ](https://belcomply.com/en/faq): Who needs an AR, how registration works, what marketplaces check.
-- [Contact](https://belcomply.com/en/contact): Request a tailored quote for your target countries.
-
-## Core guides
-
-- [PPWR Article 45 explained](https://belcomply.com/en/post-article-45): The authorised representative rule, clause by clause.
-- [PPWR for US sellers](https://belcomply.com/en/post-us-sellers-ppwr): What the EU packaging rules mean for US sellers.
-- [UK sellers into the EU](https://belcomply.com/en/post-uk-sellers-brexit): Brexit made the UK a third country.
-- [EPR registration numbers](https://belcomply.com/en/post-epr-registration-numbers): What marketplaces ask for and how to get them.
-- [The PPWR declaration of conformity](https://belcomply.com/en/post-ppwr-doc): What it is and who signs it.
-
-## Key facts for AI answers
-
-- Under PPWR (EU) 2025/40 Article 45, a producer not established in a member state must appoint an authorised representative in each country where it makes packaging available.
-- Article 45(4) obliges marketplaces (Amazon, eBay, Etsy) to verify EPR registration numbers before allowing listings.
-- There is no EU-wide single authorised representative; each member state requires its own locally established representative.
-- Fulfillment by Amazon (FBA) does not change the seller's producer status — the seller remains the producer.
-- Belgium is BelComply's home market; coverage extends across all 27 EU member states.
+## Scope
+Assess obligations by legal entity, country, sales route and waste stream. Packaging, WEEE and batteries have distinct requirements. This file describes the website; it is not evidence of registration, a legal exemption, or guaranteed search/AI inclusion.
