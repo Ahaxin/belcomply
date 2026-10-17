@@ -1,0 +1,38 @@
+{
+  "checked_at_utc": "2026-10-17T22:10:59.227816+00:00",
+  "source_commit": "2110d3f0d1d91f72a37e4ef5fedb9681c7887c12",
+  "source_note": "Checks the working tree, including changes not yet committed; source_commit identifies the base HEAD.",
+  "scope": "Local source validation only; not live HTTP or indexing/AI acceptance",
+  "canonical_pages": 74,
+  "errors": [],
+  "warnings": [],
+  "language_reachability": {
+    "en": {
+      "reachable": 37,
+      "unreachable": []
+    },
+    "zh-CN": {
+      "reachable": 37,
+      "unreachable": []
+    }
+  },
+  "schema_page_counts": {
+    "AboutPage": 2,
+    "BreadcrumbList": 72,
+    "Organization": 74,
+    "ItemList": 2,
+    "CollectionPage": 2,
+    "ContactPage": 2,
+    "WebPage": 68,
+    "FAQPage": 6,
+    "Article": 48,
+    "Service": 12
+  },
+  "Product_policy": "Quoted compliance services use Service, per user approval; no fabricated Product offers.",
+  "unproven": [
+    "actual crawler access through CDN",
+    "indexing",
+    "organic top 3",
+    "AI citation/recommendation"
+  ]
+}
