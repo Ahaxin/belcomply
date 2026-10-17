@@ -447,3 +447,6 @@ table.data .no  { color: var(--warn); font-weight: 600; }
   * { animation: none !important; transition: none !important; }
   html { scroll-behavior: auto; }
 }
+
+/* Spacious wordmark and EU-wide brand promise. */
+.brand__text{gap:8px}.brand__tag{font-size:9px;letter-spacing:.12em;line-height:1.2;white-space:nowrap}@media(max-width:760px){.brand__tag{display:block;font-size:7px;letter-spacing:.08em}}

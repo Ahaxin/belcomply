@@ -520,3 +520,6 @@ table.data .no  { color: var(--warn); font-weight: 600; }
 .coverage-flag::details-content{content-visibility:visible}
 
 .platform-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:32px 0}.platform-card{min-width:0;padding:26px;border:1px solid var(--line);border-top:3px solid var(--gold-500);border-radius:6px;background:#fff}.platform-card h3{font-size:24px;margin:0 0 10px}.platform-card p{font-size:14px;line-height:1.75}.platform-card .platform-card__scope{font-weight:600;color:var(--navy-700)}.platform-card .source-links{font-size:12px;border-top:1px solid var(--line);padding-top:14px}@media(max-width:760px){.platform-grid{grid-template-columns:1fr;gap:18px}.platform-card{padding:20px}}
+
+/* Spacious wordmark and EU-wide brand promise. */
+.brand__text{gap:8px}.brand__tag{font-size:9px;letter-spacing:.12em;line-height:1.2;white-space:nowrap}@media(max-width:760px){.brand__tag{display:block;font-size:7px;letter-spacing:.08em}}

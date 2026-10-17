@@ -1,6 +1,6 @@
-# BelComply — Belgium-focused EU compliance support
+# BelComply — EU-wide compliance support
 
-> EPR registration, PPWR authorised representation and reporting across all 27 EU member states, with Belgium as the core market. English and Chinese communication for US, UK and Chinese businesses. GPSR product-safety services are independent and are not included in EPR.
+> EPR registration, PPWR authorised representation and reporting across all 27 EU member states, from our base in Belgium. English and Chinese communication for US, UK and Chinese businesses. GPSR product-safety services are independent and are not included in EPR.
 
 ## Main pages
 - [English home](https://belcomply.com/)
