@@ -529,3 +529,6 @@ table.data .no  { color: var(--warn); font-weight: 600; }
 .site-footer--grouped .site-footer__legal{line-height:1.8}
 @media(max-width:980px){.site-footer--grouped .site-footer__inner{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.site-footer--grouped .site-footer__inner{gap:26px}.site-footer--grouped .site-footer__inner>div:first-child{grid-column:1/-1}}
+
+/* Put marketplace and representative guides within easy reach. */
+.guide-topic-nav{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}.guide-topic-nav a{display:block;padding:10px 14px;background:#fff;border:1px solid #ded1b4;border-radius:4px;color:var(--navy-800);font-size:13px;font-weight:600;text-decoration:none}.guide-topic-nav a:hover{background:var(--gold-50);border-color:var(--gold-600)}#marketplace-guides,#authorised-representative-guides,#all-guides{scroll-margin-top:90px}
