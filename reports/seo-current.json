@@ -1,6 +1,6 @@
 {
-  "checked_at_utc": "2026-10-18T18:35:40.343838+00:00",
-  "source_commit": "7d4da24f6efa8eed864bcbe7af4e9a348c635526",
+  "checked_at_utc": "2026-10-18T18:50:03.822369+00:00",
+  "source_commit": "45ea84991c8f7fe72cb8f599b649f24c59b664cc",
   "source_note": "Checks the working tree, including changes not yet committed; source_commit identifies the base HEAD.",
   "scope": "Local source validation only; not live HTTP or indexing/AI acceptance",
   "canonical_pages": 74,
@@ -17,11 +17,11 @@
     }
   },
   "schema_page_counts": {
-    "BreadcrumbList": 72,
     "AboutPage": 2,
     "Organization": 74,
-    "CollectionPage": 2,
+    "BreadcrumbList": 72,
     "ItemList": 2,
+    "CollectionPage": 2,
     "ContactPage": 2,
     "WebPage": 68,
     "FAQPage": 6,
