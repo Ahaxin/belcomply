@@ -119,6 +119,10 @@ def main():
                 errors.append(f"{url}: {message}")
         require(p.canonicals == [url], "canonical must match sitemap URL")
         require(p.h1 == 1, "expected one H1")
+        require("belgium focus" not in p.title.lower(),
+                "outdated Belgium Focus positioning in title")
+        require(p.meta.get("og:title") == p.title and p.meta.get("twitter:title") == p.title,
+                "social titles must match the page title")
         require(bool(p.title.strip()) and bool(p.meta.get("description", "").strip()),
                 "title and description required")
         require(not re.search(r"\b(noindex|nosnippet|none)\b", p.meta.get("robots", ""), re.I),
