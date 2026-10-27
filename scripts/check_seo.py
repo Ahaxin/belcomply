@@ -123,6 +123,7 @@ def main():
                 "outdated Belgium Focus positioning in title")
         require(p.meta.get("og:title") == p.title and p.meta.get("twitter:title") == p.title,
                 "social titles must match the page title")
+        require(p.meta.get("og:url") == url, "social URL must match canonical")
         require(bool(p.title.strip()) and bool(p.meta.get("description", "").strip()),
                 "title and description required")
         require(not re.search(r"\b(noindex|nosnippet|none)\b", p.meta.get("robots", ""), re.I),
@@ -141,6 +142,10 @@ def main():
         types = []
         for schema in p.schemas:
             for entity in schema.get("@graph", [schema]):
+                if entity.get("@type") in ("WebPage", "AboutPage", "ContactPage", "CollectionPage"):
+                    require(entity.get("url") == url, "structured page URL must match canonical")
+                    require(entity.get("@id") == url + "#webpage",
+                            "structured page identifier must match canonical")
                 t = entity.get("@type", [])
                 types.extend([t] if isinstance(t, str) else t)
                 if entity.get("@type") == "ItemList":
@@ -162,6 +167,7 @@ def main():
             parsed = urlsplit(target)
             if parsed.scheme not in ("http", "https") or parsed.netloc != "belcomply.com":
                 continue
+            f = None
             try:
                 f = local_file(target)
                 require(f.exists(), f"missing internal target: {href}")
@@ -171,6 +177,11 @@ def main():
             except (OSError, ValueError) as exc:
                 errors.append(f"{url}: invalid target {href}: {exc}")
             clean = target.split("#")[0].split("?")[0]
+            if f is not None and f.exists() and f.suffix == ".html":
+                destination = page(target)
+                if destination.canonicals:
+                    require(clean == destination.canonicals[0],
+                            f"internal link uses noncanonical alias: {href}")
             if clean in pages:
                 graph[url].add(clean)
         for bot in ("Googlebot", "bingbot", "OAI-SearchBot", "PerplexityBot"):
@@ -218,12 +229,43 @@ def main():
             canonical = p.canonicals[0]
             if canonical not in pages:
                 errors.append(f"Canonical page absent from sitemap: {canonical}")
+    # Historical HTML aliases should go straight to a canonical URL, never back
+    # to another redirect or to a language-alternative page by mistake.
+    redirect_rules = {}
+    redirect_file = ROOT / "_redirects"
+    if redirect_file.exists():
+        for number, line in enumerate(redirect_file.read_text(encoding="utf-8").splitlines(), 1):
+            if not line.strip() or line.lstrip().startswith("#"):
+                continue
+            parts = line.split()
+            if len(parts) != 3:
+                errors.append(f"_redirects:{number}: expected source, destination and status")
+                continue
+            source, destination, status = parts
+            if source in redirect_rules:
+                errors.append(f"_redirects:{number}: duplicate source {source}")
+            if not source.startswith("/") or destination not in pages or status not in ("301", "308"):
+                errors.append(f"_redirects:{number}: must permanently redirect a path to a canonical page")
+            if BASE + source in pages:
+                errors.append(f"_redirects:{number}: redirects a canonical sitemap URL")
+            redirect_rules[source] = destination
+        for url in urls:
+            path = urlsplit(url).path
+            alias = path + "index.html" if path.endswith("/") else path + ".html"
+            if redirect_rules.get(alias) != url:
+                errors.append(f"Missing direct permanent HTML alias redirect: {alias}")
+        for alias in ("/en", "/en/", "/en/index", "/en/index.html"):
+            if redirect_rules.get(alias) != BASE + "/":
+                errors.append(f"English home alias does not redirect to root: {alias}")
+    else:
+        errors.append("Missing _redirects canonical alias configuration")
     report = {
         "checked_at_utc": datetime.now(timezone.utc).isoformat(),
         "source_commit": subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip(),
         "source_note": "Checks the working tree, including changes not yet committed; source_commit identifies the base HEAD.",
         "scope": "Local source validation only; not live HTTP or indexing/AI acceptance",
         "canonical_pages": len(urls), "errors": errors, "warnings": warnings,
+        "permanent_alias_rules": len(redirect_rules),
         "language_reachability": reachable, "schema_page_counts": dict(schema_counts),
         "Product_policy": "Quoted compliance services use Service, per user approval; no fabricated Product offers.",
         "unproven": ["actual crawler access through CDN", "indexing", "organic top 3", "AI citation/recommendation"],

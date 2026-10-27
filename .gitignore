@@ -1,3 +1,6 @@
 # Local email-sending scripts — not part of the public website
 cold-email/
 Reddit/
+
+# Generated Python validation cache
+__pycache__/
