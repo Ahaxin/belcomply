@@ -9,7 +9,7 @@
   </url>
   <url>
     <loc>https://belcomply.com/zh/about</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/about" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/about" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/about" />
@@ -58,6 +58,7 @@
   </url>
   <url>
     <loc>https://belcomply.com/zh/faq</loc>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/faq" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/faq" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/faq" />
@@ -70,6 +71,7 @@
   </url>
   <url>
     <loc>https://belcomply.com/zh/</loc>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/" />

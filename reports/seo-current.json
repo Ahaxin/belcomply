@@ -1,11 +1,15 @@
 {
-  "checked_at_utc": "2026-11-04T21:26:30.824553+00:00",
-  "source_commit": "2f9ab1c86a8fad35002c7e5f4e3dcaf5cc932518",
+  "checked_at_utc": "2026-11-04T22:02:24.859506+00:00",
+  "source_commit": "d4000c1bee3a0ac1ae7de0d56cdb123c5c26d79a",
   "source_note": "Checks the working tree, including changes not yet committed; source_commit identifies the base HEAD.",
   "scope": "Local source validation only; not live HTTP or indexing/AI acceptance",
   "canonical_pages": 74,
   "errors": [],
-  "warnings": [],
+  "warnings": [
+    "https://belcomply.com/zh/about: description length 155 (editorial review only)",
+    "https://belcomply.com/zh/faq: description length 156 (editorial review only)",
+    "https://belcomply.com/zh/: description length 157 (editorial review only)"
+  ],
   "permanent_alias_rules": 81,
   "language_reachability": {
     "en": {
