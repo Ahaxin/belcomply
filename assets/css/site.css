@@ -475,6 +475,8 @@ table.data .no  { color: var(--warn); font-weight: 600; }
 .contact-page .field input,.contact-page .field select{min-height:42px;padding:9px 11px;font-size:16px}
 .contact-page .field textarea{min-height:86px;height:86px;padding:9px 11px;font-size:16px}
 .contact-page .field button{min-height:44px;padding:10px 22px;align-self:start;font-size:15px}
+.contact-form-note,.contact-form-status{margin:0 0 10px;font-size:13px;line-height:1.5;color:var(--ink-500)}
+.contact-form-status:empty{display:none}
 .contact-details .answer-box{margin:0 0 20px;padding:18px 22px}
 .contact-details h2{font-size:20px;margin:0 0 12px}
 .contact-details p,.contact-details li{font-size:14px;line-height:1.65}
