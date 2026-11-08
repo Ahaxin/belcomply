@@ -16,12 +16,14 @@
   </url>
   <url>
     <loc>https://belcomply.com/en/blog</loc>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/blog" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/blog" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/blog" />
   </url>
   <url>
     <loc>https://belcomply.com/zh/blog</loc>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/blog" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/blog" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/blog" />
@@ -356,12 +358,14 @@
   </url>
   <url>
     <loc>https://belcomply.com/en/why-us</loc>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/why-us" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/why-us" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/why-us" />
   </url>
   <url>
     <loc>https://belcomply.com/zh/why-us</loc>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/why-us" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/why-us" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/why-us" />
@@ -474,5 +478,19 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-ebay-epr-verification" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-ebay-epr-verification" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-ebay-epr-verification" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/post-belcomply-amazon-spn</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-belcomply-amazon-spn" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-belcomply-amazon-spn" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-belcomply-amazon-spn" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/post-belcomply-amazon-spn</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-belcomply-amazon-spn" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-belcomply-amazon-spn" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-belcomply-amazon-spn" />
   </url>
 </urlset>
