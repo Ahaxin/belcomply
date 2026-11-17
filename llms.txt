@@ -32,3 +32,11 @@ Assess obligations by legal entity, country, sales route and waste stream. Packa
 ## Company updates
 - [BelComply on Amazon Service Provider Network](https://belcomply.com/en/post-belcomply-amazon-spn)
 - [BelComply 已列入亚马逊服务商网络](https://belcomply.com/zh/post-belcomply-amazon-spn)
+
+## Free assessment and service streams
+The initial needs assessment is free; implementation and formal AR appointments are separately scoped and quoted.
+- [Packaging EPR compliance and PPWR representation](https://belcomply.com/en/packaging-epr)
+- [WEEE compliance support for electrical equipment sellers](https://belcomply.com/en/weee-compliance)
+- [Battery EPR compliance for EU sales](https://belcomply.com/en/battery-epr)
+- [Free assessment](https://belcomply.com/en/epr-assessment)
+- [免费初步评估](https://belcomply.com/zh/epr-assessment)

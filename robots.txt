@@ -1,7 +1,9 @@
 User-agent: *
 Allow: /
 
-# AI / generative-engine crawlers — explicitly welcome (GEO)
+# Existing owner policy allows the agents below. Search access and training access are distinct.
+# OAI-SearchBot supports search discovery; GPTBot concerns model training.
+# Allow rules do not guarantee indexing, citations or recommendations.
 User-agent: GPTBot
 Allow: /
 User-agent: PerplexityBot
