@@ -536,5 +536,6 @@ table.data .no  { color: var(--warn); font-weight: 600; }
 .guide-topic-nav{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}.guide-topic-nav a{display:block;padding:10px 14px;background:#fff;border:1px solid #ded1b4;border-radius:4px;color:var(--navy-800);font-size:13px;font-weight:600;text-decoration:none}.guide-topic-nav a:hover{background:var(--gold-50);border-color:var(--gold-600)}#marketplace-guides,#authorised-representative-guides,#all-guides{scroll-margin-top:90px}
 
 /* Keep the two-column eBay guide tables readable within the mobile viewport. */
-.ebay-epr-guide .answer-box h2{margin-top:0;font-size:clamp(24px,3vw,30px)}
-@media(max-width:760px){.ebay-epr-table{min-width:0;table-layout:fixed}.ebay-epr-table th:first-child{width:32%}.ebay-epr-table th,.ebay-epr-table td{padding:12px 10px;font-size:14px;overflow-wrap:anywhere}}
+.ebay-epr-guide .answer-box h2,.marketplace-epr-guide .answer-box h2{margin-top:0;font-size:clamp(24px,3vw,30px)}
+.platform-grid .platform-card--etsy{grid-column:1/-1}
+@media(max-width:760px){.ebay-epr-table,.marketplace-epr-table{min-width:0;table-layout:fixed}.ebay-epr-table th:first-child,.marketplace-epr-table th:first-child{width:32%}.ebay-epr-table th,.ebay-epr-table td,.marketplace-epr-table th,.marketplace-epr-table td{padding:12px 10px;font-size:14px;overflow-wrap:anywhere}}

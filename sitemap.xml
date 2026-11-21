@@ -378,14 +378,14 @@
   </url>
   <url>
     <loc>https://belcomply.com/epr-compliance-for-us-companies</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/epr-compliance-for-us-companies" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/epr-compliance-for-us-companies" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/epr-compliance-for-us-companies" />
   </url>
   <url>
     <loc>https://belcomply.com/zh/epr-compliance-for-us-companies</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/epr-compliance-for-us-companies" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/epr-compliance-for-us-companies" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/epr-compliance-for-us-companies" />
@@ -418,14 +418,14 @@
   </url>
   <url>
     <loc>https://belcomply.com/en/uk-sellers</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/uk-sellers" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/uk-sellers" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/uk-sellers" />
   </url>
   <url>
     <loc>https://belcomply.com/zh/uk-sellers</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/uk-sellers" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/uk-sellers" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/uk-sellers" />
@@ -534,5 +534,19 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/belgium-epr-authorised-representative" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/belgium-epr-authorised-representative" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/belgium-epr-authorised-representative" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/en/post-etsy-epr-verification</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-etsy-epr-verification" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-etsy-epr-verification" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-etsy-epr-verification" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/post-etsy-epr-verification</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-etsy-epr-verification" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-etsy-epr-verification" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-etsy-epr-verification" />
   </url>
 </urlset>
