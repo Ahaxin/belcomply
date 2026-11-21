@@ -538,4 +538,6 @@ table.data .no  { color: var(--warn); font-weight: 600; }
 /* Keep the two-column eBay guide tables readable within the mobile viewport. */
 .ebay-epr-guide .answer-box h2,.marketplace-epr-guide .answer-box h2{margin-top:0;font-size:clamp(24px,3vw,30px)}
 .platform-grid .platform-card--etsy{grid-column:1/-1}
+@media(max-width:760px){.uk-epr-table{min-width:0;table-layout:fixed}.uk-epr-table th:first-child{width:34%}.uk-epr-table th,.uk-epr-table td{padding:12px 10px;font-size:14px;overflow-wrap:anywhere}}
+@media(max-width:760px){.uk-seller-hero{padding:32px 0}.uk-seller-hero .lead{font-size:17px;line-height:1.6}.uk-seller-hero .answer-box{padding:16px 18px;margin:20px 0}.uk-seller-hero .cta-line{gap:10px}.uk-seller-hero .cta-line .btn{padding:12px 16px}}
 @media(max-width:760px){.ebay-epr-table,.marketplace-epr-table{min-width:0;table-layout:fixed}.ebay-epr-table th:first-child,.marketplace-epr-table th:first-child{width:32%}.ebay-epr-table th,.ebay-epr-table td,.marketplace-epr-table th,.marketplace-epr-table td{padding:12px 10px;font-size:14px;overflow-wrap:anywhere}}
