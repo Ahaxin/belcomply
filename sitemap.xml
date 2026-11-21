@@ -132,14 +132,14 @@
   </url>
   <url>
     <loc>https://belcomply.com/en/post-ar-costs-timeline</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-ar-costs-timeline" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-ar-costs-timeline" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-ar-costs-timeline" />
   </url>
   <url>
     <loc>https://belcomply.com/zh/post-ar-costs-timeline</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/post-ar-costs-timeline" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/post-ar-costs-timeline" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/post-ar-costs-timeline" />
@@ -390,14 +390,14 @@
   </url>
   <url>
     <loc>https://belcomply.com/en/belgium-epr</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/belgium-epr" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/belgium-epr" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/belgium-epr" />
   </url>
   <url>
     <loc>https://belcomply.com/zh/belgium-epr</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/belgium-epr" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/belgium-epr" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/belgium-epr" />
@@ -505,4 +505,18 @@
 <url><loc>https://belcomply.com/zh/weee-compliance</loc><lastmod>2026-11-17</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/weee-compliance" /><xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/weee-compliance" /><xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/weee-compliance" /></url>
 <url><loc>https://belcomply.com/zh/battery-epr</loc><lastmod>2026-11-17</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/battery-epr" /><xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/battery-epr" /><xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/battery-epr" /></url>
 <url><loc>https://belcomply.com/zh/epr-assessment</loc><lastmod>2026-11-17</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/epr-assessment" /><xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/epr-assessment" /><xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/epr-assessment" /></url>
+  <url>
+    <loc>https://belcomply.com/en/belgium-packaging-epr-cost</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/belgium-packaging-epr-cost" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/belgium-packaging-epr-cost" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/belgium-packaging-epr-cost" />
+  </url>
+  <url>
+    <loc>https://belcomply.com/zh/belgium-packaging-epr-cost</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://belcomply.com/en/belgium-packaging-epr-cost" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://belcomply.com/zh/belgium-packaging-epr-cost" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://belcomply.com/en/belgium-packaging-epr-cost" />
+  </url>
 </urlset>
